@@ -15,7 +15,7 @@ rm -rf $HOME/.nolus/data
 ### Download latest snapshot
 
 ```
-curl -L http://65.108.126.30:1800/share/nolus-rila.tar.lz4 | tar -Ilz4 -xf - -C $HOME/.nolus
+curl -L https://snapshots.nkbblocks.com/share/nolus-rila.tar.lz4 | tar -Ilz4 -xf - -C $HOME/.nolus
 mv $HOME/.nolus/priv_validator_state.json.backup $HOME/.nolus/data/priv_validator_state.json
 ```
 
